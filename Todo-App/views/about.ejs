@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Todo List</title>
+  <!-- Add your preferred CSS styles here -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      padding: 20px;
+      text-align: left;
+    }
+    .about-section {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <%- include("components/header",{username:username}) %>
+  <main>
+    <div class="about-section">
+      <h2>Todo List - Stay Organized and Productive</h2>
+      <p>
+        Welcome to the Todo List web application, designed to help you stay organized and boost your productivity. With this simple yet powerful tool, managing your tasks and to-dos has never been easier.
+      </p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li><strong>Add Todo:</strong> Easily add new tasks to your list. Simply type in the task and press the "Add" button to include it in your list of todos.</li>
+        <li><strong>Edit Todo:</strong> Need to make changes to an existing task? No problem! Click on the todo you wish to modify, and a user-friendly interface will allow you to update its details effortlessly.</li>
+        <li><strong>Delete Todo:</strong> Completed a task or no longer need it on your list? You can quickly remove any todo by clicking on the delete button associated with it.</li>
+      </ul>
+      <p>
+        Our goal is to provide you with a clean and intuitive Todo List application that enhances your task management experience. Whether you are a student, professional, or simply want to stay organized in your daily life, this app is for you!
+      </p>
+      <p>
+        So, what are you waiting for? Start organizing your tasks and stay on top of your to-dos with the Todo List application today!
+      </p>
+    </div>
+  </main>
+</body>
+</html>
